@@ -1,0 +1,47 @@
+site_name: TimeMoneyOS 技术笔记
+site_description: SDR、通信与嵌入式学习笔记
+site_url: https://timemoneyos.github.io/Desktop/
+repo_url: https://github.com/TimeMoneyOS/Desktop
+repo_name: TimeMoneyOS/Desktop
+theme:
+  name: material
+  language: zh
+  font: false
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: teal
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate
+      primary: teal
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+plugins:
+  - search:
+      lang: zh
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/image-viewer.js
+nav:
+  - 首页: index.md
+  - SDR 与通信:
+      - 信息波接收与逐步解析: receiver.md

@@ -1,0 +1,8 @@
+body { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
+.md-typeset img { display: block; max-width: 100%; height: auto; cursor: zoom-in; background: white; }
+.md-typeset table:not([class]) { font-size: .72rem; }
+.md-typeset .highlight { overflow: auto; }
+.wave-viewer { width: min(96vw, 1500px); max-width: 96vw; max-height: 94vh; padding: 2.5rem .75rem .75rem; border: 0; background: white; }
+.wave-viewer::backdrop { background: rgba(0,0,0,.75); }
+.wave-viewer img { display: block; width: 100%; height: auto; }
+.wave-viewer button { position: absolute; right: .5rem; top: .3rem; padding: .2rem .5rem; border: 0; background: transparent; color: #222; font-size: 1.5rem; cursor: pointer; }
