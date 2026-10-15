@@ -47,3 +47,7 @@ nav:
       - 信息波接收与逐步解析: receiver.md
       - 增益与收发链路: gain-link.md
       - AD936x 官方介绍中文翻译: ad936x-translation.md
+
+  - RoboMaster:
+      - 2027 超级对抗赛规则变化: robomaster-2027-rule-changes.md
+      - 规则对比核对记录: robomaster-2027-validation.md

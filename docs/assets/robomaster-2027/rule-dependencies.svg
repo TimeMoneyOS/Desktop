@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 1080 650" role="img" aria-labelledby="title desc">
+<title id="title">2027 规则关键依赖关系</title><desc id="desc">装配解锁重装重火力，阵地影响控制度与胜负，基地血量影响后勤，雷达连接命中与装甲加固。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#527078"/></marker></defs>
+<rect width="1080" height="650" rx="20" fill="#f4f8fa"/>
+<g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="42" y="52" font-size="28" font-weight="700" fill="#143b45">2027：装配、控图、信息形成联动</text><text x="42" y="84" font-size="16" fill="#526b74">规则关系示意 · 非对局仿真 · 对应正文各章节</text>
+<rect x="40" y="120" width="290" height="130" rx="12" fill="white" stroke="#008577" stroke-width="2"/>
+<rect x="40" y="132" width="5" height="106" fill="#008577"/>
+<text x="60" y="154" font-size="21" font-weight="700" fill="#143b45">科技核心装配</text>
+<text x="60" y="184" font-size="16" fill="#3d5560">持续金币、重装等级</text>
+<text x="60" y="209" font-size="16" fill="#3d5560">三级装配解锁 42mm 使用权</text>
+<rect x="395" y="120" width="290" height="130" rx="12" fill="white" stroke="#008577" stroke-width="2"/>
+<rect x="395" y="132" width="5" height="106" fill="#008577"/>
+<text x="415" y="154" font-size="21" font-weight="700" fill="#143b45">工作台与重装火力</text>
+<text x="415" y="184" font-size="16" fill="#3d5560">另有差值相关时间解锁路径</text>
+<text x="415" y="209" font-size="16" fill="#3d5560">安装、确认后投入重火力</text>
+<rect x="750" y="120" width="290" height="130" rx="12" fill="white" stroke="#c46e32" stroke-width="2"/>
+<rect x="750" y="132" width="5" height="106" fill="#c46e32"/>
+<text x="770" y="154" font-size="21" font-weight="700" fill="#143b45">基地血量与后勤</text>
+<text x="770" y="184" font-size="16" fill="#3d5560">血量降低 → 后勤系数降低</text>
+<text x="770" y="209" font-size="16" fill="#3d5560">回血、复活、通信、图传受影响</text>
+<rect x="40" y="325" width="290" height="125" rx="12" fill="white" stroke="#347bb3" stroke-width="2"/>
+<rect x="40" y="337" width="5" height="101" fill="#347bb3"/>
+<text x="60" y="359" font-size="21" font-weight="700" fill="#143b45">阵地争夺</text>
+<text x="60" y="389" font-size="16" fill="#3d5560">前哨阵地 / 基地阵地</text>
+<text x="60" y="414" font-size="16" fill="#3d5560">临时控制与完全控制</text>
+<rect x="395" y="325" width="290" height="125" rx="12" fill="white" stroke="#347bb3" stroke-width="2"/>
+<rect x="395" y="337" width="5" height="101" fill="#347bb3"/>
+<text x="415" y="359" font-size="21" font-weight="700" fill="#143b45">累计控制度</text>
+<text x="415" y="389" font-size="16" fill="#3d5560">同时控制两个前哨：+1/秒</text>
+<text x="415" y="414" font-size="16" fill="#3d5560">同时控制两个基地：+3/秒</text>
+<rect x="750" y="325" width="290" height="125" rx="12" fill="white" stroke="#347bb3" stroke-width="2"/>
+<rect x="750" y="337" width="5" height="101" fill="#347bb3"/>
+<text x="770" y="359" font-size="21" font-weight="700" fill="#143b45">胜负判定</text>
+<text x="770" y="389" font-size="16" fill="#3d5560">基地均存活，到时先比控制度</text>
+<text x="770" y="414" font-size="16" fill="#3d5560">基地击毁仍可提前结束比赛</text>
+<rect x="40" y="515" width="290" height="100" rx="12" fill="white" stroke="#8a5eb5" stroke-width="2"/>
+<rect x="40" y="527" width="5" height="76" fill="#8a5eb5"/>
+<text x="60" y="549" font-size="21" font-weight="700" fill="#143b45">命中位置与精度</text>
+<text x="60" y="579" font-size="16" fill="#3d5560">命中率、散布、区域反馈</text>
+<rect x="395" y="515" width="290" height="100" rx="12" fill="white" stroke="#8a5eb5" stroke-width="2"/>
+<rect x="395" y="527" width="5" height="76" fill="#8a5eb5"/>
+<text x="415" y="549" font-size="21" font-weight="700" fill="#143b45">雷达加固决策</text>
+<text x="415" y="579" font-size="16" fill="#3d5560">选择全队装甲加固中心</text>
+<rect x="750" y="515" width="290" height="100" rx="12" fill="white" stroke="#8a5eb5" stroke-width="2"/>
+<rect x="750" y="527" width="5" height="76" fill="#8a5eb5"/>
+<text x="770" y="549" font-size="21" font-weight="700" fill="#143b45">自适应装甲</text>
+<text x="770" y="579" font-size="16" fill="#3d5560">加固区 ×0.5 / 未加固区 ×1.5</text>
+<path d="M330 185 L395 185" stroke="#527078" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M685 185 L750 185" stroke="#527078" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M330 388 L395 388" stroke="#527078" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M685 388 L750 388" stroke="#527078" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M330 565 L395 565" stroke="#527078" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M685 565 L750 565" stroke="#527078" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+</g></svg>
