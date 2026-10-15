@@ -46,3 +46,4 @@ nav:
   - SDR 与通信:
       - 信息波接收与逐步解析: receiver.md
       - 增益与收发链路: gain-link.md
+      - AD936x 官方介绍中文翻译: ad936x-translation.md

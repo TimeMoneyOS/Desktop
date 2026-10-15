@@ -1,5 +1,7 @@
 # 信息波接收与逐步解析说明
 
+芯片结构参考：[AD936x 官方介绍中文翻译与中文框图](ad936x-translation.md)。
+
 本文说明当前 Windows 工程怎样把 PlutoSDR 实时 IQ 或 `.c64/.fc32` 录波逐步转换成 `0x0A01`～`0x0A05` 信息帧，并解释 `wmj`、`tcr`、`fast/ours` 三种信息波解码器的具体差别。
 
 > 本文描述的是当前工程实际执行的代码，不是泛化的 GFSK 教程。主入口为 `tests/run_live_receiver.py`。
