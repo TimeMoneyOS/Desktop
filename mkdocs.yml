@@ -45,3 +45,4 @@ nav:
   - 首页: index.md
   - SDR 与通信:
       - 信息波接收与逐步解析: receiver.md
+      - 增益与收发链路: gain-link.md

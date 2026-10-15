@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="628.2pt" height="236.16pt" viewBox="0 0 628.2 236.16" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-15T16:10:58.098508</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 236.16 
+L 628.2 236.16 
+L 628.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g id="patch_2">
+     <path d="M 256.307891 43.213828 
+L 371.892109 43.213828 
+L 371.892109 23.986172 
+L 256.307891 23.986172 
+z
+" style="fill: #e1eaf6; stroke: #52616b; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: middle" x="314.1" y="36.629297" transform="rotate(-0 314.1 36.629297)">先固定 TX 与天线连接</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 314.1 46.158691 
+Q 314.1 53.399442 314.1 59.522159 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 316.3 55.122159 
+L 314.1 59.522159 
+L 311.9 55.122159 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <g id="patch_4">
+     <path d="M 262.984375 85.453828 
+L 365.215625 85.453828 
+L 365.215625 66.226172 
+L 262.984375 66.226172 
+z
+" style="fill: #e1eaf6; stroke: #52616b; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: middle" x="314.1" y="78.869297" transform="rotate(-0 314.1 78.869297)">RX 从适中增益开始</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 314.1 88.398691 
+Q 314.1 95.639442 314.1 101.762159 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 316.3 97.362159 
+L 314.1 101.762159 
+L 311.9 97.362159 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <g id="patch_6">
+     <path d="M 244.25 127.693828 
+L 383.95 127.693828 
+L 383.95 108.466172 
+L 244.25 108.466172 
+z
+" style="fill: #e1eaf6; stroke: #52616b; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: middle" x="314.1" y="121.109297" transform="rotate(-0 314.1 121.109297)">观察削顶、噪底、有效包率</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 314.1 130.638691 
+Q 314.1 137.879442 314.1 144.002159 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 316.3 139.602159 
+L 314.1 144.002159 
+L 311.9 139.602159 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <g id="patch_8">
+     <path d="M 255.25 169.933828 
+L 372.95 169.933828 
+L 372.95 150.706172 
+L 255.25 150.706172 
+z
+" style="fill: #e1eaf6; stroke: #52616b; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: middle" x="314.1" y="163.349297" transform="rotate(-0 314.1 163.349297)">过载则降增益／加衰减</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 314.1 172.878691 
+Q 314.1 180.119442 314.1 186.242159 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 316.3 181.842159 
+L 314.1 186.242159 
+L 311.9 181.842159 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <g id="patch_10">
+     <path d="M 249.75 212.173828 
+L 378.45 212.173828 
+L 378.45 192.946172 
+L 249.75 192.946172 
+z
+" style="fill: #e1eaf6; stroke: #52616b; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: middle" x="314.1" y="205.589297" transform="rotate(-0 314.1 205.589297)">弱且未过载则逐步加增益</text>
+   </g>
+  </g>
+ </g>
+</svg>
