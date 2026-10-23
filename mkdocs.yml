@@ -45,9 +45,11 @@ nav:
   - 首页: index.md
   - SDR 与通信:
       - 信息波接收与逐步解析: receiver.md
+      - 实时接收与解码代码详解: live-receiver-code.md
       - 增益与收发链路: gain-link.md
       - AD936x 官方介绍中文翻译: ad936x-translation.md
 
   - RoboMaster:
+      - 官方数据回放与训练网站: https://timemoneyos.github.io/RMUC_DATA/
       - 2027 超级对抗赛规则变化: robomaster-2027-rule-changes.md
       - 规则对比核对记录: robomaster-2027-validation.md
