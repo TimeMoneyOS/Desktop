@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="750" viewBox="0 0 1100 750" role="img" aria-labelledby="title desc">
+<title id="title">两种偏置观测进入三状态 Kalman 更新</title><desc id="desc">先维护矩阵与旋转偏置的低通历史，静止观测优先，否则使用启用的运动观测；无观测仍预测协方差。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#45636c" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="Microsoft YaHei,Noto Sans CJK SC,Arial,sans-serif" fill="#193b43">
+<text x="550" y="44" text-anchor="middle" font-size="29" fill="#193b43" font-weight="bold">偏置估计：先构造观测，再计算相信多少</text>
+<rect x="180" y="80" width="740" height="90" rx="12" fill="#e8eef9" stroke="#6c9998" stroke-width="1.5"/>
+<text x="550.0" y="117.0" text-anchor="middle" font-size="22" fill="#193b43" font-weight="normal">先维护 LP(R) 与 LP((R bias)水平分量)</text>
+<text x="550.0" y="149.0" text-anchor="middle" font-size="19" fill="#193b43" font-weight="normal">静止期间也维护历史；R 来自本帧倾角校正后的姿态</text>
+<polyline points="400,170 280,230" fill="none" stroke="#45636c" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="700,170 820,230" fill="none" stroke="#45636c" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="230" width="480" height="160" rx="12" fill="#e7f3ef" stroke="#6c9998" stroke-width="1.5"/>
+<text x="280.0" y="270.0" text-anchor="middle" font-size="22" fill="#193b43" font-weight="normal">静止且开启静止估计：优先</text>
+<text x="280.0" y="302.0" text-anchor="middle" font-size="19" fill="#193b43" font-weight="normal">H = I；e = gyroLP − bias</text>
+<text x="280.0" y="334.0" text-anchor="middle" font-size="19" fill="#193b43" font-weight="normal">三轴使用 Wrest</text>
+<text x="280.0" y="366.0" text-anchor="middle" font-size="19" fill="#193b43" font-weight="normal">假设真实角速度约为零</text>
+<rect x="580" y="230" width="480" height="160" rx="12" fill="#fff0dc" stroke="#6c9998" stroke-width="1.5"/>
+<text x="820.0" y="270.0" text-anchor="middle" font-size="22" fill="#193b43" font-weight="normal">否则，开启运动估计</text>
+<text x="820.0" y="302.0" text-anchor="middle" font-size="19" fill="#193b43" font-weight="normal">H = LP(R)；水平残差来自倾角误差</text>
+<text x="820.0" y="334.0" text-anchor="middle" font-size="19" fill="#193b43" font-weight="normal">W = diag(Wmotion,Wmotion,Wvertical)</text>
+<text x="820.0" y="366.0" text-anchor="middle" font-size="19" fill="#193b43" font-weight="normal">竖直弱约束不能给出绝对航向</text>
+<polyline points="280,390 280,440 550,440 550,480" fill="none" stroke="#45636c" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="820,390 820,440 550,440" fill="none" stroke="#45636c" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="140" y="480" width="820" height="110" rx="12" fill="#e7f3ef" stroke="#6c9998" stroke-width="1.5"/>
+<text x="550.0" y="511.0" text-anchor="middle" font-size="22" fill="#193b43" font-weight="normal">三状态偏置更新：bx、by、bz</text>
+<text x="550.0" y="543.0" text-anchor="middle" font-size="19" fill="#193b43" font-weight="normal">先预测 P；有观测时 K = P Hᵀ (H P Hᵀ + W)⁻¹</text>
+<text x="550.0" y="575.0" text-anchor="middle" font-size="19" fill="#193b43" font-weight="normal">bias += K e；P -= K H P；最后偏置限幅</text>
+<text x="550" y="646" text-anchor="middle" font-size="21" fill="#193b43" font-weight="normal">无可用观测：只预测 P；两种估计都关闭：整个更新器不执行。</text>
+<text x="550" y="691" text-anchor="middle" font-size="21" fill="#193b43" font-weight="normal">Kalman 状态不包含四元数；姿态由独立的积分与倾角校正路径维护。</text>
+</g></svg>
